@@ -1,0 +1,18 @@
+{% extends 'base/base.html' %}
+
+{% block title %}Login Page{% endblock %}
+
+{% block menu-bar %}
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+{% endblock %}
+
+{% block menu-link %}
+<li><a href="/accounts/signup">新規登録</a></li>
+<li><a href="">Profile</a></li>
+{% endblock %}
+
+{% block body %}
+<h1>Desc</h1>
+
+{% endblock %}

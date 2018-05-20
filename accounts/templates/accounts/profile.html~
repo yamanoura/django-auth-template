@@ -1,0 +1,16 @@
+{% extends 'base/base.html' %}
+
+{% block title %}Profile Page{% endblock %}
+
+{% block menu-bar %}
+<span class="icon-bar"></span>
+{% endblock %}
+
+{% block menu-link %}
+<li><a href="">Profile</a></li>
+{% endblock %}
+
+{% block body %}
+<h1>Profile</h1>
+
+{% endblock %}
